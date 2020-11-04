@@ -1,7 +1,6 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <main-page>dfsdfsf</main-page>
+    <main-page></main-page>
   </div>
 </template>
 
@@ -11,7 +10,7 @@ import MainPage from "@/components/mainPage";
 export default {
   name: 'App',
   components: {
-    MainPage,
+    MainPage
   }
 }
 </script>
